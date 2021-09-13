@@ -4,8 +4,7 @@ using UnityEngine;
 
 public class jumpStrength : MonoBehaviour
 {
-    public float upForce = 15000f;
-
+    public float upForce = 150f;
     private Rigidbody rb;
     bool canJump = false;
 
@@ -20,6 +19,7 @@ public class jumpStrength : MonoBehaviour
     {
         if(Input.GetKeyDown("space") && canJump == true)
         {
+            
             rb.velocity = Vector3.zero;
             rb.AddForce(new Vector3(0, upForce));
             canJump = false;
