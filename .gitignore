@@ -39,3 +39,4 @@ sysinfo.txt
 # Extra
 [Uu]serSettings\*
 [Ll]ogs\*
+*.log
