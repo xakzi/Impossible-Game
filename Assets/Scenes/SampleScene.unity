@@ -138,7 +138,7 @@ GameObject:
   - component: {fileID: 469285090}
   m_Layer: 0
   m_Name: Wall-1
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -230,8 +230,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 469285089}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.41, y: 1.78, z: -0.6743691}
-  m_LocalScale: {x: 2.9743, y: 0.6815006, z: 1}
+  m_LocalPosition: {x: 2.729, y: -3.02, z: -0.6743691}
+  m_LocalScale: {x: 6.3322845, y: 0.6815006, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 4
@@ -446,7 +446,7 @@ GameObject:
   - component: {fileID: 880644702}
   m_Layer: 0
   m_Name: Wall-1
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -538,7 +538,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 880644701}
   m_LocalRotation: {x: -0, y: -0, z: -0.707107, w: 0.7071066}
-  m_LocalPosition: {x: 0.31, y: -3.01, z: -0.6743691}
+  m_LocalPosition: {x: 6.05, y: 2.62, z: -0.6743691}
   m_LocalScale: {x: 1.2569392, y: 0.6815006, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -558,9 +558,8 @@ GameObject:
   - component: {fileID: 1474579475}
   - component: {fileID: 1474579474}
   - component: {fileID: 1474579480}
-  - component: {fileID: 1474579479}
   - component: {fileID: 1474579481}
-  - component: {fileID: 1474579482}
+  - component: {fileID: 1474579479}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -690,7 +689,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"Speed","value":{"$content":2.0,"$type":"System.Single"},"$version":"A"},{"name":"JumpForce","value":{"$content":3.0,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"JumpStrength","value":{"$content":5.0,"$type":"System.Single"},"$version":"A"},{"name":"SpeedStrength","value":{"$content":2.0,"$type":"System.Single"},"$version":"A"},{"name":"canJump","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"canWalk","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!114 &1474579481
 MonoBehaviour:
@@ -704,19 +703,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6eeab4a877161a40833baae31cdcce9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  JumpStrength: 240
---- !u!114 &1474579482
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1474579473}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 44bed35c23a4608479fb085087c53234, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  JumpStrength: 3
+  SpeedStrength: 2
 --- !u!1 &2033151939
 GameObject:
   m_ObjectHideFlags: 0
