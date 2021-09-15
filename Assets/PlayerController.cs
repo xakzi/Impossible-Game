@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 public class PlayerController : MonoBehaviour
-{
+{/*
     public float JumpStrength = 3f, SpeedStrength = 2f;
 
 
@@ -28,7 +28,14 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-   
+    private void FixedUpdate()
+    {
+        if(canWalk == false)
+        {
+            GetVelocityY = rb.velocity.y;
+            rb.velocity = new Vector3(SpeedStrength, GetVelocityY);
+        }
+    }
 
     private void OnCollisionEnter(Collision collision)
     {
@@ -86,5 +93,5 @@ public class PlayerController : MonoBehaviour
             }
 
         }
-    }
+    }*/
 }
