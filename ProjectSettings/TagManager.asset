@@ -9,7 +9,6 @@ TagManager:
   - Wall
   - Spike
   - SoundManager
-  - YouDiedSpike
   - txtMessageWinorDie
   layers:
   - Default
