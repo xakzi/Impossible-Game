@@ -1369,6 +1369,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 840792763293345463, guid: f21a0a0b210e4f54dae0292637778d73, type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"collection":{"$content":[{"name":"JumpStrength","value":{"$content":5.0,"$type":"System.Single"},"$version":"A"},{"name":"SpeedStrength","value":{"$content":4.0,"$type":"System.Single"},"$version":"A"},{"name":"canJump","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"canWalk","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      objectReference: {fileID: 0}
     - target: {fileID: 4076348010921213540, guid: f21a0a0b210e4f54dae0292637778d73, type: 3}
       propertyPath: m_RootOrder
       value: 29
